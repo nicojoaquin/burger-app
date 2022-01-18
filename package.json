@@ -1,6 +1,6 @@
 {
   "name": "burger-app",
-  "homepage": "nicojoaquin.github.io/burger-app",
+  "homepage": "https://nicojoaquin.github.io/burger-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
