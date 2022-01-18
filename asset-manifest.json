@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/nicojoaquin.github.io/burger-app/static/css/main.de8b950d.css",
+    "main.js": "/nicojoaquin.github.io/burger-app/static/js/main.5c2e7217.js",
+    "static/media/Rottweiler.png": "/nicojoaquin.github.io/burger-app/static/media/Rottweiler.1d132f63898302c3c501.png",
+    "static/media/hamburguesaPortada.png": "/nicojoaquin.github.io/burger-app/static/media/hamburguesaPortada.1d1818700e3bef5a4b7e.png",
+    "static/media/Doberman.png": "/nicojoaquin.github.io/burger-app/static/media/Doberman.a37299252f8cbfa26a06.png",
+    "static/media/Dogo.png": "/nicojoaquin.github.io/burger-app/static/media/Dogo.92511033fd097cfdbc0c.png",
+    "static/media/Bulldog.png": "/nicojoaquin.github.io/burger-app/static/media/Bulldog.6f900e02bcaaa629f8bb.png",
+    "static/media/Labrador.png": "/nicojoaquin.github.io/burger-app/static/media/Labrador.e0768bd4473c74394ad8.png",
+    "static/media/Caniche.png": "/nicojoaquin.github.io/burger-app/static/media/Caniche.e90ee0ded7a547817445.png",
+    "static/media/Cocker.png": "/nicojoaquin.github.io/burger-app/static/media/Cocker.fde1ce596ca803feb43a.png",
+    "static/media/logoFav.png": "/nicojoaquin.github.io/burger-app/static/media/logoFav.8edce462d7873f0c17c8.png",
+    "static/media/Lechuga.png": "/nicojoaquin.github.io/burger-app/static/media/Lechuga.20eab0e1a79d5b65cbc5.png",
+    "static/media/Carne.png": "/nicojoaquin.github.io/burger-app/static/media/Carne.1d7eea984d94d44c8521.png",
+    "static/media/Panceta.png": "/nicojoaquin.github.io/burger-app/static/media/Panceta.292369f612e7f2639357.png",
+    "static/media/Tomate.png": "/nicojoaquin.github.io/burger-app/static/media/Tomate.90a24bb33f19b46b325e.png",
+    "static/media/Cebolla.png": "/nicojoaquin.github.io/burger-app/static/media/Cebolla.18bfb4276d8d6e0a9a3d.png",
+    "static/media/Papas.png": "/nicojoaquin.github.io/burger-app/static/media/Papas.fd7db472cebe917ca97a.png",
+    "static/media/Queso.png": "/nicojoaquin.github.io/burger-app/static/media/Queso.2687dd0090d045745d09.png",
+    "static/media/Jamon.png": "/nicojoaquin.github.io/burger-app/static/media/Jamon.d4b3f64ebfc22813fca1.png",
+    "static/media/logo.png": "/nicojoaquin.github.io/burger-app/static/media/logo.7ecf1af10137eb29f3e7.png",
+    "static/media/Chiguagua.png": "/nicojoaquin.github.io/burger-app/static/media/Chiguagua.26211344d15cce4c6037.png",
+    "index.html": "/nicojoaquin.github.io/burger-app/index.html",
+    "main.de8b950d.css.map": "/nicojoaquin.github.io/burger-app/static/css/main.de8b950d.css.map",
+    "main.5c2e7217.js.map": "/nicojoaquin.github.io/burger-app/static/js/main.5c2e7217.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de8b950d.css",
+    "static/js/main.5c2e7217.js"
+  ]
+}
