@@ -1,24 +1,12 @@
-import { Link } from "react-router-dom"
+import logo from '../../../assets/img/logoFav.png'
 
 const Header = () => {
     return (
         <header>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                <div className="container-fluid">
-                    <Link className="navbar-brand" to="/">Bulldog</Link>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarNav">
-                        <ul className="navbar-nav">
-                            <li className="nav-item">
-                                <Link className="nav-link active" aria-current="page" to="/premium">Linea premium</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link active" aria-current="page" to="/armar">Armá tu hamburguesa</Link>
-                            </li>
-                        </ul>
-                    </div>
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div className="d-flex align-items-center ms-3">
+                    <a href='/' className="navbar-brand">Burger-land</a>
+                    <img width={30} src={logo} alt="logo" />
                 </div>
             </nav>
         </header>
