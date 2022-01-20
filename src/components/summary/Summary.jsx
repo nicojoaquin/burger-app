@@ -1,7 +1,7 @@
 import { toast } from "react-toastify";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
-const Summary = ({order, handleDelete}) => {
+const Summary = ({order, setOrder, handleDelete}) => {
 
     const total = order.reduce((a, ord) => a + ord.precio, 0);
 
@@ -10,12 +10,13 @@ const Summary = ({order, handleDelete}) => {
         toast.success("Orden realizada!", {
             position: toast.POSITION.TOP_CENTER
         });
+        setOrder([]);
     };
 
     return (
         <>  <h4 className="text-center mt-5">Resumen</h4>
             <p className="text-center">{order.length}/3 
-                <span className="total"> ${total}</span>
+                <span className="total"> ${total + 350}</span>
             </p>
             <div className="text-center">
                 <ul>
@@ -29,6 +30,11 @@ const Summary = ({order, handleDelete}) => {
                             </li>              
                         ))
                     }
+                    <li className="text-light d-flex justify-content-evenly align-items-center bg-dark mt-3 shadow-lg rounded-3">
+                        <img width={50} src={require("../../assets/img/ingredientes/Carne.png")} alt="Carne" />
+                        <span>Carne</span>
+                        <span>$350</span>
+                    </li>
                 </ul> 
                 {
                     order.length > 0 ?    

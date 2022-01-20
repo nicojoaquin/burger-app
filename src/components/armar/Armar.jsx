@@ -50,7 +50,7 @@ const Armar = () => {
                         }
                 </ul>
                 <div className = "col-md-6">
-                    <Summary order = {order} handleDelete = {handleDelete} />
+                    <Summary order = {order} setOrder = {setOrder} handleDelete = {handleDelete} />
                 </div>
             </div>
         </section>
