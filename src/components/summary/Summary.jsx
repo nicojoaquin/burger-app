@@ -3,22 +3,14 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 
 const Summary = ({order, handleDelete}) => {
 
-    const MAXIMO_ORDEN = 3
     const total = order.reduce((a, ord) => a + ord.precio, 0);
 
     //Mensaje de confirmacion
     const onOrder = () => {
-        
-        if(order.length < MAXIMO_ORDEN) {
-          return "fols"
-        } 
-
-        else {
-            toast.success("Orden realizada!", {
-                position: toast.POSITION.TOP_CENTER
-            })
-        }
-    }
+        toast.success("Orden realizada!", {
+            position: toast.POSITION.TOP_CENTER
+        });
+    };
 
     return (
         <>  <h4 className="text-center mt-5">Resumen</h4>

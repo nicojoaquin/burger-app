@@ -1,15 +1,26 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { toast } from "react-toastify";
 import useFetch from "../../hooks/useFetch";
 import Ingredientes from "../ingredientes/Ingredientes";
 import Summary from "../summary/Summary";
 
 const Armar = () => {
     const {data: ingredientes, loading} = useFetch('https://apipdtc.herokuapp.com/bulldog/ingredientes');
-    const [order, setOrder] = useState([]);
+    const [order, setOrder] = useState(JSON.parse(localStorage.getItem('order')) ?? []);
+    const MAXIMO_ORDEN = 3
+
+    useEffect(()=> {
+        localStorage.setItem('order', JSON.stringify(order));
+    }, [order])
 
     //Agregar a la orden
     const handleAdd = (ingrediente) => {
-        if(order.length === 3) return;
+        if(order.length === MAXIMO_ORDEN) {
+            return toast.error("No puedes agregar mas ingredientes", {
+                theme: "dark",
+                position: toast.POSITION.TOP_CENTER
+            });
+        } 
         setOrder([...order, ingrediente]);
     }
 
@@ -39,7 +50,7 @@ const Armar = () => {
                         }
                 </ul>
                 <div className = "col-md-6">
-                    <Summary order = {order} handleDelete = {handleDelete}/>
+                    <Summary order = {order} handleDelete = {handleDelete} />
                 </div>
             </div>
         </section>

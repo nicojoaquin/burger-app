@@ -1,4 +1,13 @@
+import { toast } from "react-toastify";
+
 const Card = ({nombre, ingredientes, precio, imagen, imgTerm}) => {
+
+    const onOrder = () => {
+        toast.success("Orden realizada!", {
+            position: toast.POSITION.TOP_CENTER
+        });
+    };
+
     return (
         <div className="col-lg-3 col-md-4">
             <article className="card shadow-lg mt-3">
@@ -14,7 +23,7 @@ const Card = ({nombre, ingredientes, precio, imagen, imgTerm}) => {
                 </ul>
                 <div className="mt-3 d-flex justify-content-between align-items-center">
                     <p>${precio}</p>
-                    <button className="btn btn-primary">Ordenar</button>
+                    <button className="btn btn-primary" onClick = {onOrder}>Ordenar</button>
                 </div>
                 </div>
             </article>
