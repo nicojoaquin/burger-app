@@ -3,11 +3,13 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 
 const Summary = ({order, handleDelete}) => {
 
+    const MAXIMO_ORDEN = 3
     const total = order.reduce((a, ord) => a + ord.precio, 0);
 
+    //Mensaje de confirmacion
     const onOrder = () => {
         
-        if(order.length < 3) {
+        if(order.length < MAXIMO_ORDEN) {
           return "fols"
         } 
 

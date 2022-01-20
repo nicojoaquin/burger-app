@@ -5,6 +5,7 @@ const Ingredientes = ({ingrediente, id, nombre, precio, imagen, handleAdd, order
 
     const exist = order?.find( ord => ord.id === id);
 
+    //Intermediaro para agregar a la orden, verifica si existe ya
     const onAdd = () => {
         if(exist) return toast.error("Ya agregaste este ingrediente", {
             theme: "dark",

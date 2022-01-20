@@ -7,12 +7,16 @@ const Armar = () => {
     const {data: ingredientes, loading} = useFetch('https://apipdtc.herokuapp.com/bulldog/ingredientes');
     const [order, setOrder] = useState([]);
 
+    //Agregar a la orden
     const handleAdd = (ingrediente) => {
         if(order.length === 3) return;
         setOrder([...order, ingrediente]);
     }
 
+    //Eliminar de la orden
     const handleDelete = (id) => setOrder( order.filter( ord => ord.id !== id ));
+
+    if(loading) return null;
 
     return (
         <section className="container-fluid p-5">
