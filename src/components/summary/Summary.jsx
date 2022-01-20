@@ -1,6 +1,7 @@
 import { toast } from "react-toastify";
+import "bootstrap-icons/font/bootstrap-icons.css";
 
-const Summary = ({order}) => {
+const Summary = ({order, handleDelete}) => {
 
     const total = order.reduce((a, ord) => a + ord.precio, 0);
 
@@ -30,6 +31,7 @@ const Summary = ({order}) => {
                                 <img width={50} src={require(`../../assets/img/ingredientes/${imagen}.png`)} alt={nombre} />
                                 <span>{nombre}</span>
                                 <span>${precio}</span>
+                                <i className="bi bi-file-x-fill delete-icon" onClick = {() => handleDelete(id)}></i>
                             </li>              
                         ))
                     }

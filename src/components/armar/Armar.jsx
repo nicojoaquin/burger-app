@@ -12,6 +12,8 @@ const Armar = () => {
         setOrder([...order, ingrediente]);
     }
 
+    const handleDelete = (id) => setOrder( order.filter( ord => ord.id !== id ));
+
     return (
         <section className="container-fluid p-5">
             <div className="text-center">
@@ -33,7 +35,7 @@ const Armar = () => {
                         }
                 </ul>
                 <div className = "col-md-6">
-                    <Summary order = {order} />
+                    <Summary order = {order} handleDelete = {handleDelete}/>
                 </div>
             </div>
         </section>

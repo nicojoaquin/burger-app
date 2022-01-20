@@ -28,3 +28,9 @@ code {
 .total {
   font-weight: bold;
 }
+
+.delete-icon {
+  color: red;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
