@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/burger-app/static/css/main.de8b950d.css",
-    "main.js": "/burger-app/static/js/main.7be746de.js",
+    "main.css": "/burger-app/static/css/main.5e30c0b0.css",
+    "main.js": "/burger-app/static/js/main.67a420bc.js",
     "static/media/Rottweiler.png": "/burger-app/static/media/Rottweiler.1d132f63898302c3c501.png",
     "static/media/hamburguesaPortada.png": "/burger-app/static/media/hamburguesaPortada.1d1818700e3bef5a4b7e.png",
     "static/media/Doberman.png": "/burger-app/static/media/Doberman.a37299252f8cbfa26a06.png",
@@ -10,7 +10,9 @@
     "static/media/Labrador.png": "/burger-app/static/media/Labrador.e0768bd4473c74394ad8.png",
     "static/media/Caniche.png": "/burger-app/static/media/Caniche.e90ee0ded7a547817445.png",
     "static/media/Cocker.png": "/burger-app/static/media/Cocker.fde1ce596ca803feb43a.png",
+    "static/media/bootstrap-icons.woff?": "/burger-app/static/media/bootstrap-icons.38c4d2499557ae0379fd.woff",
     "static/media/logoFav.png": "/burger-app/static/media/logoFav.8edce462d7873f0c17c8.png",
+    "static/media/bootstrap-icons.woff2?": "/burger-app/static/media/bootstrap-icons.2b56e79ae5013246de29.woff2",
     "static/media/Lechuga.png": "/burger-app/static/media/Lechuga.20eab0e1a79d5b65cbc5.png",
     "static/media/Carne.png": "/burger-app/static/media/Carne.1d7eea984d94d44c8521.png",
     "static/media/Panceta.png": "/burger-app/static/media/Panceta.292369f612e7f2639357.png",
@@ -22,11 +24,11 @@
     "static/media/logo.png": "/burger-app/static/media/logo.7ecf1af10137eb29f3e7.png",
     "static/media/Chiguagua.png": "/burger-app/static/media/Chiguagua.26211344d15cce4c6037.png",
     "index.html": "/burger-app/index.html",
-    "main.de8b950d.css.map": "/burger-app/static/css/main.de8b950d.css.map",
-    "main.7be746de.js.map": "/burger-app/static/js/main.7be746de.js.map"
+    "main.5e30c0b0.css.map": "/burger-app/static/css/main.5e30c0b0.css.map",
+    "main.67a420bc.js.map": "/burger-app/static/js/main.67a420bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.de8b950d.css",
-    "static/js/main.7be746de.js"
+    "static/css/main.5e30c0b0.css",
+    "static/js/main.67a420bc.js"
   ]
 }
